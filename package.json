@@ -1,0 +1,23 @@
+{
+    "name": "your-app",
+    "version": "1.0.0",
+    "description": "Your app description",
+    "main": "index.js",
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "dependencies": {
+     
+    },
+    "devDependencies": {
+     
+    },
+    "engines": {
+      "node": ">=10.16.0",
+      "npm": ">=5.6.0"
+    }
+  }
+  

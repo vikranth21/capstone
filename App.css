@@ -1,0 +1,180 @@
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #2b2b58 0%, #a84747 100%);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.container {
+  flex: 1;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.char-counter {
+  font-size: 14px;
+  color: #888;
+}
+
+.loading {
+  font-size: 18px;
+  color: #007bff;
+}
+
+.error {
+  font-size: 18px;
+  color: #ff0000;
+}
+
+.output {
+  font-size: 18px;
+  border: 1px solid #ccc; /* Add border */
+  padding: 10px; /* Add padding */
+  border-radius: 5px; /* Add border-radius */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add box-shadow */
+  margin-bottom: 20px; /* Add margin-bottom */
+}
+
+.prediction, .accuracy { /* Apply the same styles to both prediction and accuracy */
+  font-size: 18px;
+  border: 1px solid #ccc; /* Add border */
+  padding: 10px; /* Add padding */
+  border-radius: 5px; /* Add border-radius */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add box-shadow */
+  margin-bottom: 20px; /* Add margin-bottom */
+}
+
+.previous-findings {
+  margin-top: 20px;
+}
+
+.download-btn {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.download-btn:hover {
+  background-color: #218838;
+}
+
+.graph-container {
+  margin-top: 20px;
+}
+
+.additional-info {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin-left: 20px;
+}
+
+.additional-info h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.additional-info p {
+  font-size: 16px;
+  margin-bottom: 15px; /* Add more margin-bottom */
+  border: 1px solid #ccc; /* Add border */
+  padding: 10px; /* Add padding */
+  border-radius: 5px; /* Add border-radius */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add box-shadow */
+}
+.tweet-accuracy {
+  font-size: 18px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+
+
+/* Add this CSS at the bottom of your existing App.css file */
+/* Add this CSS at the bottom of your existing App.css file */
+.emoji {
+  position: fixed;
+  bottom: 0;
+  font-size: 36px;
+  animation: float-up 4s linear infinite;
+}
+
+@keyframes float-up {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-50px);
+  }
+   100% {
+    transform: translateY(-100px);
+  }
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+/* Add this CSS at the bottom of your existing App.css file */
+.app.red {
+  color: red;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}

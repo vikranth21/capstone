@@ -1,0 +1,10 @@
+[build]
+  base = "frontend/" # Set the base directory for the build (the frontend)
+  functions = "backend/" # Set the directory for serverless functions (the backend)
+
+[build.environment]
+  PYTHON_VERSION = "3.9" # Set the Python version to be used by Netlify
+
+[build.command]
+  publish = "npm run build" # Command to build the frontend
+  functions = "npm install && pip install -r backend/requirements.txt && cp -r backend/models build/models" # Command to install dependencies for both frontend and backend, and copy model files to build directory
